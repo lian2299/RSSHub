@@ -1,6 +1,6 @@
 # API
 
-:::caution
+:::warning
 
 The API is under active development and is subject to change. All suggestions are welcome!
 
@@ -12,11 +12,11 @@ RSSHub provides the following APIs:
 
 :::tip
 
-This API **will not** return any routes under `lib/protected_router.js`.
+This API **will not** return any routes under `lib/protected_router.ts`.
 
 :::
 
-Eg: <https://rsshub.app/api/routes/github>
+Eg: [https://rsshub.app/api/routes/github](https://rsshub.app/api/routes/github)
 
 Route: `/api/routes/:name?`
 
